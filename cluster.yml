@@ -1,0 +1,6 @@
+---
+# file: cluster.yml 
+- hosts: 
+    - galera_cluster
+  roles:
+    - CaptTofu.ansible-galera

@@ -1,0 +1,5 @@
+# this is just an example
+[galera_cluster]
+172.17.0.34
+172.17.0.35
+172.17.0.36
