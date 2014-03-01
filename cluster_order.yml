@@ -1,0 +1,8 @@
+---
+# file: cluster.yml 
+- hosts: 
+    - galera_node1
+    - galera_node2
+    - galera_node3
+  roles:
+    - CaptTofu.ansible-galera

@@ -1,0 +1,6 @@
+---
+# file: cluster.yml 
+- hosts: 
+    - haproxy
+  roles:
+    - CaptTofu.ansible-galera-haproxy
