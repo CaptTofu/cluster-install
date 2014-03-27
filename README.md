@@ -12,7 +12,9 @@ To install the Galaxy ansible-galera role:
 
     $ ansible-galaxy install username.rolename
 
-Next, you will need to make sure you have a hosts file in the root directory of this repository or make sure to put in a [galera_cluster] group in your top-level ansible hosts. There is an example file, ``hosts.example`` if you want to roll your own.
+Next, you will need to make sure you have a hosts file in the root directory of this repository or make sure to put in a [galera_cluster] group in your top-level ansible hosts. 
+
+There is an example file, ``hosts.example`` if you want to roll your own. This can be used if instead of using the docker-galera repo to generate the hosts file, you instead simply add the IP addresses of the instances you wish to provision. You will need 4 instances and they will have to be set up with an SSH key that is also been added from where you are running ansible (with ``ssh-add``, provided ssh-agent is set up). If you can ssh as ubuntu@host without a password, then you are set.
 
 There is also a sample ansible-config file you can use if you don't want to have to edit /etc/ansible/ansible.cfg 
 
