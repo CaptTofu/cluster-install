@@ -1,0 +1,10 @@
+# this is an example of hosts, in this case a stock ubuntu distribution
+# running in HP Cloud
+[galera_cluster]
+galera_node1 ansible_ssh_user=ubuntu ansible_ssh_host=15.126.225.218
+galera_node2 ansible_ssh_user=ubuntu ansible_ssh_host=15.126.225.216
+galera_node3 ansible_ssh_user=ubuntu ansible_ssh_host=15.126.225.72
+
+
+[haproxy]
+haproxy ansible_ssh_host=15.126.225.30

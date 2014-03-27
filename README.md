@@ -12,7 +12,7 @@ To install the Galaxy ansible-galera role:
 
     $ ansible-galaxy install username.rolename
 
-Next, you will need to make sure you have a hosts file in the root directory of this repository or make sure to put in a [galera_cluster] group in your top-level ansible hosts 
+Next, you will need to make sure you have a hosts file in the root directory of this repository or make sure to put in a [galera_cluster] group in your top-level ansible hosts. There is an example file, ``hosts.example`` if you want to roll your own.
 
 There is also a sample ansible-config file you can use if you don't want to have to edit /etc/ansible/ansible.cfg 
 
